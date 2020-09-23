@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/agency-react/static/css/main.896dc85e.chunk.css",
-    "main.js": "/agency-react/static/js/main.ad5e8dba.chunk.js",
-    "main.js.map": "/agency-react/static/js/main.ad5e8dba.chunk.js.map",
-    "runtime-main.js": "/agency-react/static/js/runtime-main.f3f696b9.js",
-    "runtime-main.js.map": "/agency-react/static/js/runtime-main.f3f696b9.js.map",
-    "static/js/2.b789a387.chunk.js": "/agency-react/static/js/2.b789a387.chunk.js",
-    "static/js/2.b789a387.chunk.js.map": "/agency-react/static/js/2.b789a387.chunk.js.map",
-    "index.html": "/agency-react/index.html",
-    "precache-manifest.719153b84cfcbb838967b1d356e0e486.js": "/agency-react/precache-manifest.719153b84cfcbb838967b1d356e0e486.js",
-    "service-worker.js": "/agency-react/service-worker.js",
-    "static/css/main.896dc85e.chunk.css.map": "/agency-react/static/css/main.896dc85e.chunk.css.map",
-    "static/js/2.b789a387.chunk.js.LICENSE.txt": "/agency-react/static/js/2.b789a387.chunk.js.LICENSE.txt",
-    "static/media/app.scss": "/agency-react/static/media/destinyJardinNegroTablet.3bbda4d3.png",
-    "static/media/logo.svg": "/agency-react/static/media/logo.47ee84c7.svg"
+    "main.css": "./static/css/main.10dbdbf3.chunk.css",
+    "main.js": "./static/js/main.da59e774.chunk.js",
+    "main.js.map": "./static/js/main.da59e774.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.55732f4a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.55732f4a.js.map",
+    "static/js/2.b789a387.chunk.js": "./static/js/2.b789a387.chunk.js",
+    "static/js/2.b789a387.chunk.js.map": "./static/js/2.b789a387.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.2a61e438d8d6d6a9dab676a426ae2bac.js": "./precache-manifest.2a61e438d8d6d6a9dab676a426ae2bac.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.10dbdbf3.chunk.css.map": "./static/css/main.10dbdbf3.chunk.css.map",
+    "static/js/2.b789a387.chunk.js.LICENSE.txt": "./static/js/2.b789a387.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "./static/media/destinyJardinNegroTablet.3bbda4d3.png",
+    "static/media/logo.svg": "./static/media/logo.47ee84c7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3f696b9.js",
+    "static/js/runtime-main.55732f4a.js",
     "static/js/2.b789a387.chunk.js",
-    "static/css/main.896dc85e.chunk.css",
-    "static/js/main.ad5e8dba.chunk.js"
+    "static/css/main.10dbdbf3.chunk.css",
+    "static/js/main.da59e774.chunk.js"
   ]
 }
