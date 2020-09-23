@@ -2,12 +2,18 @@
   &__items {
     align-items: stretch;
     a {
-      background: $turquesa;
+      background: $turquesa-alpha;
       display: flex;
       flex-direction: column;
-      padding: 1.5625rem;
+      padding: 1.6rem 0;
+      transition: all ease 0.2s;
+      border-bottom: 2px solid transparent;
+      &:hover{
+        background: $blue-night-alpha;
+        border-bottom: 2px solid $accent-w;
+      }
       i {
-        font-size: 3em;
+        font-size: 3.5em;
       }
       span {
         margin-top: 1rem;
@@ -17,6 +23,9 @@
     .item-center{
       a{
         justify-content: center;
+        i{
+          font-size: 5em;
+        }
       }
     }
   }
