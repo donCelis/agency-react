@@ -6,7 +6,7 @@ import Home from "../pages/Home";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="agency-react">
       <Switch>
         <Route exact path="/" component={Home} />
       </Switch>
