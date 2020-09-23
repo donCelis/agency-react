@@ -1,0 +1,20 @@
+//Colores base
+$negro: black;
+$blanco: white;
+$azulMedianoche: rgb(44, 62, 80);
+$seleccion: rgba(52, 73, 94, 0.5);
+$sombra: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+//Menú
+$azulMedianoche: rgb(44, 62, 80);
+$turquesa: rgb(26, 188, 156);
+$verde: rgb(22, 160, 133);
+$violeta: rgb(142, 68, 173);
+//Fuente
+$openSans: "Open Sans", sans-serif;
+//Imagenes de fondo
+$imgEscritorio: url("../../assets/img/bg/destinyJardinNegro.png") $negro
+  no-repeat fixed center;
+$imgTablet: url("../../assets/img/bg/destinyJardinNegroTablet.png") $negro
+  no-repeat fixed center;
+$imgCel: url("../../assets/img/bg/destinyJardinNegroMobile.png") $negro
+  no-repeat fixed center;

@@ -1,0 +1,141 @@
+//Inicio
+.inicio {
+  background: $imgEscritorio;
+  background-size: cover;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  .cabecera {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      color: $blanco;
+      font-size: 3em;
+      font-weight: 300;
+      border-bottom: 2px solid transparent;
+      transition: ease-in-out 0.2s;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      .logoSvg {
+        width: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.rellenoSvg {
+  fill: $blanco;
+}
+//Redes Sociales
+.redesSociales {
+  a {
+    width: 40px;
+    height: 40px;
+    color: $blanco;
+    border: 2px solid $blanco;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    opacity: 0.5;
+    transition: ease-in-out 0.2s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+//Menú Principal
+.menuPrincipal {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: row wrap;
+    ul {
+      flex-basis: 30%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin: 5px;
+      li {
+        color: $blanco;
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(26, 188, 156, 0.6);
+        padding: 30px;
+        border-bottom: 2px solid transparent;
+        transition: ease-in-out 0.2s;
+        span {
+          font-size: 1.2em;
+        }
+        i {
+          font-size: 3.5em;
+          margin-bottom: 10px;
+        }
+        &:hover {
+          border-bottom: 2px solid $blanco;
+          background: rgba(52, 73, 94, 0.6);
+        }
+      }
+    }
+  }
+  .centro li:first-child {
+    width: 100%;
+  }
+  .izquierda li:nth-child(1),
+  .izquierda li:nth-child(2) {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  .izquierda li:last-child {
+    width: 100%;
+  }
+  .derecha li:nth-child(2),
+  .derecha li:nth-child(3) {
+    width: 48%;
+    margin-top: 10px;
+  }
+  .derecha li:first-child {
+    width: 100%;
+  }
+  .centro li i {
+    font-size: 5em;
+  }
+}
+//Pie de página
+.piePagina {
+  text-align: center;
+  color: $blanco;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    font-weight: 300;
+    font-size: 1.2em;
+    span {
+      font-weight: 700;
+      color: $turquesa;
+    }
+  }
+}
