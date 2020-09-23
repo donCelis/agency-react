@@ -1,0 +1,21 @@
+main {
+  background: url("../../img/bg/destinyJardinNegro.png") $accent-b no-repeat center;
+  background-size: cover;
+  color: $accent-w;
+  height: 100vh;
+  
+  @media only screen and (max-width: 992px) {
+    height: 100%;
+  }
+  @media only screen and (max-width: 768px) {
+    background: url("../../img/bg/destinyJardinNegroTablet.png") $accent-b
+    no-repeat center;
+    background-size: cover;
+    height: 100%;
+  }
+  @media only screen and (max-width: 576px) {
+    background: url("../../img/bg/destinyJardinNegroMobile.png") $accent-b
+    no-repeat center;
+    background-size: cover;
+  }
+}

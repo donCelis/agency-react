@@ -1,0 +1,23 @@
+.content {
+  &__items {
+    align-items: stretch;
+    a {
+      background: $turquesa;
+      display: flex;
+      flex-direction: column;
+      padding: 1.5625rem;
+      i {
+        font-size: 3em;
+      }
+      span {
+        margin-top: 1rem;
+        font-size: 1.2em;
+      }
+    }
+    .item-center{
+      a{
+        justify-content: center;
+      }
+    }
+  }
+}

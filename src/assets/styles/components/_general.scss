@@ -1,0 +1,12 @@
+body {
+  font-family: $openSans;
+}
+a {
+  color: $accent-w;
+}
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: $accent-w;
+}

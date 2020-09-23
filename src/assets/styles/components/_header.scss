@@ -1,8 +1,13 @@
 header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
   .logo {
-    width: 40px;
     font-weight: 100;
+    margin: 0;
     img {
+      width: 40px;
       margin-right: 1rem;
     }
   }
@@ -18,8 +23,16 @@ header {
       text-align: center;
       opacity: 0.5;
       transition: ease-in-out 0.2s;
-      &:hover{
+      &:hover {
         opacity: 1;
+      }
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    & {
+      flex-flow: column wrap;
+      .logo {
+        margin-bottom: 2rem;
       }
     }
   }

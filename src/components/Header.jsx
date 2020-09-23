@@ -3,10 +3,10 @@ import logo from "../assets/img/logo.svg";
 
 const Header = () => {
   return (
-    <header className="d-flex align-items-center justify-content-between py-5">
-      <h1 className="m-0 d-inline-flex align-items-center logo">
-        <img className="img-fluid" src={logo} alt="Agency App"/>
-        <span>Agency</span>
+    <header className="py-5">
+      <h1 className="d-flex align-items-center logo">
+        <img className="img-fluid" src={logo} alt="Agency App" />
+        Agency
       </h1>
       <div className="socials">
         <a className="fab fa-facebook-f" href="#"></a>

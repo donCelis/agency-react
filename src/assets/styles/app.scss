@@ -2,28 +2,8 @@
 //Licencia - Creative Commons (CC) - Permitido con fines educativos
 
 @import "./variables/variables";
-@import "./components/header";
 
-body{
-	font-family: $openSans;
-}
-a{
-	color: $accent-w;
-}
-a:hover, a:focus, a:visited{
-	text-decoration: none;
-	color: $accent-w;
-}
-main{
-	background: url("../img/bg/destinyJardinNegro.png") $accent-b no-repeat center;
-	background-size: cover;
-	color: $accent-w;
-	height: 100vh;
-	
-	@media only screen and (max-width: 768px){
-		background: url("../img/bg/destinyJardinNegroTablet.png") $accent-b no-repeat center;
-	}
-	@media only screen and (max-width: 576px){
-		background: url("../img/bg/destinyJardinNegroMobile.png") $accent-b no-repeat center;
-	}
-}
+@import "./components/general";
+@import "./components/main";
+@import "./components/header";
+@import "./components/content";
