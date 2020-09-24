@@ -5,11 +5,13 @@ function Home() {
   return (
     <>
       <Preloader />
+      <section className="main">
       <div className="container">
         <Header />
         <Content />
         <footer></footer>
       </div>
+      </section>
     </>
   );
 }
