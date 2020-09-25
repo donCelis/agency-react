@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { Sugar } from "react-preloaders";
+import { Dots } from "react-preloaders";
 
-const Preloader = () => {
+const Preloader = ({timeOut=1200}) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, timeOut);
   }, [loading]);
   
   return (
-    <Sugar
+    <Dots
       customLoading={loading}
       time={0}
       color={"white"}

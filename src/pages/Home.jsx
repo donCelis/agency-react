@@ -6,11 +6,11 @@ function Home() {
     <>
       <Preloader />
       <section className="main">
-      <div className="container">
-        <Header />
-        <Content />
-        <footer></footer>
-      </div>
+        <div className="container">
+          <Header />
+          <Content />
+          <footer></footer>
+        </div>
       </section>
     </>
   );
