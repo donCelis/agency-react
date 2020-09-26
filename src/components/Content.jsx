@@ -6,7 +6,7 @@ const Content = () => {
     <nav className="py-5 content">
       <div className="row text-center content__items">
         <div className="col-md-12 col-lg-4 mb-4">
-          <article className="">
+          <article>
             <div className="row">
               <div className="col-sm-12 col-md-6 mb-4">
                 <div>
@@ -52,7 +52,7 @@ const Content = () => {
           </article>
         </div>
         <div className="col-md-12 col-lg-4 mb-4">
-          <article className="">
+          <article>
             <div className="row">
               <div className="col-sm-12">
                 <div>

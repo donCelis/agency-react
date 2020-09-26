@@ -3,6 +3,9 @@
   background-size: cover;
   color: $accent-w;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
   @media only screen and (max-width: 992px) {
     height: 100%;

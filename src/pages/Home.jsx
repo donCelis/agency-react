@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Content, Preloader } from "../components";
+import { Header, Content, Preloader, Footer } from "../components";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
         <div className="container">
           <Header />
           <Content />
-          <footer></footer>
+          <Footer />
         </div>
       </section>
     </>

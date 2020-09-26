@@ -8,7 +8,7 @@ const Preloader = ({timeOut=1200}) => {
     setTimeout(() => {
       setLoading(false);
     }, timeOut);
-  }, [loading]);
+  }, [loading, timeOut]);
   
   return (
     <Dots
