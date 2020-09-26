@@ -10,7 +10,7 @@ const Content = () => {
             <div className="row">
               <div className="col-sm-12 col-md-6 mb-4">
                 <div>
-                  <Link to="/example">
+                  <Link to="/about">
                     <i className="fas fa-book-open"></i>
                     <span>About</span>
                   </Link>
@@ -18,7 +18,7 @@ const Content = () => {
               </div>
               <div className="col-sm-12 col-md-6 mb-4">
                 <div>
-                  <Link to="/example">
+                  <Link to="/skills">
                     <i className="fas fa-drafting-compass"></i>
                     <span>Skills</span>
                   </Link>
@@ -28,7 +28,7 @@ const Content = () => {
             <div className="row">
               <div className="col-sm-12">
                 <div>
-                  <Link to="/example">
+                  <Link to="/resume">
                     <i className="fas fa-file-alt"></i>
                     <span>Resume</span>
                   </Link>
@@ -42,7 +42,7 @@ const Content = () => {
             <div className="row no-gutters h-100">
               <div className="col-sm-12">
                 <article className="h-100">
-                  <Link to="/example" className="h-100">
+                  <Link to="/works" className="h-100">
                     <i className="fas fa-briefcase"></i>
                     <span>Our Work</span>
                   </Link>
@@ -56,7 +56,7 @@ const Content = () => {
             <div className="row">
               <div className="col-sm-12">
                 <div>
-                  <Link to="/example">
+                  <Link to="/blog">
                     <i className="fas fa-pencil-alt"></i>
                     <span>Blog</span>
                   </Link>
@@ -66,7 +66,7 @@ const Content = () => {
             <div className="row">
               <div className="col-sm-12 col-md-6 mt-4">
                 <div>
-                  <Link to="/example">
+                  <Link to="/contact">
                     <i className="fas fa-map-marked-alt"></i>
                     <span>Contact</span>
                   </Link>
@@ -74,7 +74,7 @@ const Content = () => {
               </div>
               <div className="col-sm-12 col-md-6 mt-4">
                 <div>
-                  <Link to="/example">
+                  <Link to="/feed">
                     <i className="fas fa-comment-alt"></i>
                     <span>Feedback</span>
                   </Link>

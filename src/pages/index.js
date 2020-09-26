@@ -1,2 +1,9 @@
 export { default as Home } from "./Home";
 export { default as Error404 } from "./Error404";
+export { default as About } from "./About";
+export { default as Skills } from "./Skills";
+export { default as Resume } from "./Resume";
+export { default as Works } from "./Works";
+export { default as Blog } from "./Blog";
+export { default as Contact } from "./Contact";
+export { default as Feed } from "./Feed";
