@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+prepros.config
 /.pnp
 .pnp.js
 
